@@ -1,0 +1,156 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 16,
+        "width": 16
+    },
+    "display": "Antenna",
+    "events": {
+        "AGg": {
+            "caption": "When triggered will run this workflow at the page level",
+            "name": "workflow_to_be_triggered_outside"
+        },
+        "AGi": {
+            "caption": "Revealed",
+            "name": "revealed"
+        }
+    },
+    "fields": {
+        "AAF": {
+            "caption": "Congratulations fellow Bubbler! You've just attained more power by installing this plugin. Come visit your custom plugin shop www.unlimitedbubbling.dev and get even more! Just want to say thank you? Then buy me a coffee: https://ko-fi.com/viniciusbrito 😊☕",
+            "editor": "Label",
+            "name": "a",
+            "rank": 0
+        },
+        "AAP": {
+            "caption": "Data inbox 1 type",
+            "editor": "custom_type",
+            "is_list": true,
+            "name": "data_inbox_1",
+            "optional": true,
+            "rank": 1,
+            "value": "_any_thing"
+        },
+        "AAV": {
+            "caption": "Data inbox 2 type",
+            "editor": "custom_type",
+            "name": "data_inbox_2",
+            "optional": true,
+            "rank": 2
+        },
+        "AAW": {
+            "caption": "Data inbox 3 type",
+            "editor": "custom_type",
+            "name": "data_inbox_3",
+            "optional": true,
+            "rank": 3
+        },
+        "AAX": {
+            "caption": "Data inbox 4 type",
+            "editor": "custom_type",
+            "name": "data_inbox_4",
+            "optional": true,
+            "rank": 4
+        },
+        "AAY": {
+            "caption": "Data inbox 5 type",
+            "editor": "custom_type",
+            "name": "data_inbox_5",
+            "optional": true,
+            "rank": 5
+        }
+    },
+    "icon": "ion-android-wifi",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAO": {
+            "caption": "Received data 1",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "received_data1",
+            "value": "custom_data_AAP"
+        },
+        "AAT": {
+            "caption": "Received list of data 1",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "received_list_of_data1",
+            "value": "custom_data_AAP"
+        },
+        "AAZ": {
+            "caption": "Received data 2",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "received_data2",
+            "value": "custom_data_AAV"
+        },
+        "AAa": {
+            "caption": "Received list of data 2",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "received_list_of_data2",
+            "value": "custom_data_AAV"
+        },
+        "AAb": {
+            "caption": "Received data 3",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "received_data3",
+            "value": "custom_data_AAW"
+        },
+        "AAc": {
+            "caption": "Received list of data 3",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "received_list_of_data3",
+            "value": "custom_data_AAW"
+        },
+        "AAd": {
+            "caption": "Received data 4",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "received_data4",
+            "value": "custom_data_AAX"
+        },
+        "AAe": {
+            "caption": "Received list of data 4",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "received_list_of_data4",
+            "value": "custom_data_AAX"
+        },
+        "AAf": {
+            "caption": "Received data 5",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "received_data5",
+            "value": "custom_data_AAY"
+        },
+        "AAg": {
+            "caption": "Received list of data 5",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "received_list_of_data5",
+            "value": "custom_data_AAY"
+        }
+    }
+}
