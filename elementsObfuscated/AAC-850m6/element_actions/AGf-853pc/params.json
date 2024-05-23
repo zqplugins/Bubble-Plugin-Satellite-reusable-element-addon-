@@ -1,0 +1,13 @@
+{
+    "caption": "Trigger antenna receptive to",
+    "fields": {
+        "AGp": {
+            "caption": "Class to trigger",
+            "doc": "The unique name of the class of the antenna element you want to trigger. Cannot contain spaces or weird characters, stick to a simple word or use _ and you'll be safe. For example, if you gave the class name \"Slime\" to the element \"Antenna A\" , here you write \"Slime\" to target it. Keep in mind the antenna must be visible, not by the user, but bubble-visible, I mean, loaded in the page.",
+            "editor": "DynamicValue",
+            "name": "class_to_trigger",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

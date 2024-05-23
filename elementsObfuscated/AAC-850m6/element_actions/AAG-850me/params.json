@@ -1,0 +1,101 @@
+{
+    "caption": "Send data to antenna receptive to",
+    "fields": {
+        "AAH": {
+            "caption": "Class to trigger",
+            "doc": "The unique name of the class of the antenna element you want to publish this value in its built-in custom state. Cannot contain spaces or weird characters, stick to a simple word or use _ and you'll be safe. For example, if you gave the class name \"Slime\" to the element \"Antenna A\" , here you write \"Slime\" to target it. Keep in mind the antenna must be visible, not by the user, but bubble-visible, I mean, loaded in the page.",
+            "editor": "DynamicValue",
+            "name": "class_to_trigger",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Value to send inbox 1",
+            "doc": "Value to send to inbox 1 of the specified antenna. You can place anything here, text, number, date, data types (things), but it must match the data type specified in the antenna's inbox that you can find in the antenna's element properties.",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "value_to_send_1",
+            "optional": true,
+            "rank": 1,
+            "value": "_any_thing"
+        },
+        "AAU": {
+            "caption": "List of values to send 1",
+            "doc": "Same as above, except that this will arrive on the inbox 1 list field instead of the single value field. Of course is a list.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "list_of_values_to_send_1",
+            "optional": true,
+            "rank": 2,
+            "value": "_any_thing"
+        },
+        "AAh": {
+            "caption": "Value to send inbox 2",
+            "editor": "DynamicValue",
+            "name": "value_to_send_2",
+            "optional": true,
+            "rank": 3,
+            "value": "_any_thing"
+        },
+        "AAi": {
+            "caption": "List of values to send 2",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "list_of_values_to_send_2",
+            "optional": true,
+            "rank": 4,
+            "value": "_any_thing"
+        },
+        "AAj": {
+            "caption": "Value to send inbox 3",
+            "editor": "DynamicValue",
+            "name": "value_to_send_3",
+            "optional": true,
+            "rank": 5,
+            "value": "_any_thing"
+        },
+        "AAk": {
+            "caption": "List of values to send 3",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "list_of_values_to_send_3",
+            "optional": true,
+            "rank": 6,
+            "value": "_any_thing"
+        },
+        "AAl": {
+            "caption": "Value to send inbox 4",
+            "editor": "DynamicValue",
+            "name": "value_to_send_4",
+            "optional": true,
+            "rank": 7,
+            "value": "_any_thing"
+        },
+        "AAm": {
+            "caption": "List of values to send 4",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "list_of_values_to_send_4",
+            "optional": true,
+            "rank": 8,
+            "value": "_any_thing"
+        },
+        "AAn": {
+            "caption": "Value to send inbox 5",
+            "editor": "DynamicValue",
+            "name": "value_to_send_5",
+            "optional": true,
+            "rank": 9,
+            "value": "_any_thing"
+        },
+        "AAo": {
+            "caption": "List of values to send 5",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "list_of_values_to_send_5",
+            "optional": true,
+            "rank": 10,
+            "value": "_any_thing"
+        }
+    }
+}
